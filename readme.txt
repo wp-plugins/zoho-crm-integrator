@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a pre-built form in any page or post by inserting a short code '[zoholead]'. The form data will be used to insert a record into the Zoho CRM Lead. Currently the plugin supports only a pre-built form. The settings page can be accessed under the Wordpress settings menu on the left side bar.
+A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a pre-built lead form in any page or post.
 
 == Description ==
 
@@ -31,13 +31,4 @@ A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will
 
 The Auth Token is user-specific and is a permanent token. It is required to make API calls to the Zoho CRM.
 
-== Screenshots ==
-
-
-
-== Changelog ==
-
-
-
-== Arbitrary section ==
 

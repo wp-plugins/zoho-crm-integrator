@@ -4,7 +4,7 @@ Donate link:
 Tags: zoho, crm
 Requires at least: 3.2.1
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,22 @@ A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will
 
 == Description ==
 
-A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a pre-built form in any page or post by inserting a short code '[zoholead]'. The form data will be used to insert a record into the Zoho CRM Lead. This plugin makes use of Zoho CRM API and sends the data to the Zoho CRM http://www.zoho.com/crm . Currently the plugin supports only a pre-built form. The settings page can be accessed under the Wordpress settings menu on the left side bar.
+A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a form in any page or post by inserting a short code "[zoholead]".
+Plugin supports the following fields in the form
+Company,First Name,Last Name,Email,Title,Phone,Fax,Mobile,Comments.
+
+You can use the various attributes in the short code to enable the different features of the plugin.
+For example to enable the recaptcha you can write the short code as  [zoholead recaptcha="enable"].
+
+To send the form data to an email you can use the short code [zoholead sendemail="enable" recaptcha="enable"]
+
+By default it will display all the fields in the form. To show only particular fields, you can use the short code  [zoholead sendemail="enable" recaptcha="enable" fields="first_name,last_name,email,phone"] where fields should contain the comma separated list of filed names. The various field names are company,first_name,last_name,email,title,phone,fax,mobile and comments.
+
+ The form data will be used to insert a record into the Zoho CRM Lead. The form fields to display can be set through the shortcode. The plugin supports recaptcha in the form to stop spam and there is an option to send the form data to an email using the php's mail function. The settings page can be accessed on the left side bar.
+
+Requirements:-
+
+Plugin requires cURL php extension enabled. Plugin will use the php mail function to send emails without authentication.
 
 
 == Installation ==

@@ -1,4 +1,4 @@
-=== Zoho CRM Integrator ===
+=== CRM Integrator ===
 Contributors: wp_candyman
 Donate link: 
 Tags: zoho, crm

@@ -3,8 +3,8 @@ Contributors: wp_candyman
 Donate link: 
 Tags: zoho, crm
 Requires at least: 3.2.1
-Tested up to: 3.5.1
-Stable tag: 1.1.0
+Tested up to: 4.2.1
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will
 
 A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a form in any page or post by inserting a short code "[zoholead]".
 Plugin supports the following fields in the form
-Company,First Name,Last Name,Email,Title,Phone,Fax,Mobile,Comments.
+Company,First Name,Last Name,Email,Title,Phone,Fax,Mobile,Comments.Last Name and Company are mandatory fields as they are required to create the lead in Zoho CRM.
 
 You can use the various attributes in the short code to enable the different features of the plugin.
 For example to enable the recaptcha you can write the short code as  [zoholead recaptcha="enable"].

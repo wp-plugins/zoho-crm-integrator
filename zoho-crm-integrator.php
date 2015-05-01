@@ -3,8 +3,8 @@
 Plugin Name: Zoho CRM Integrator
 Plugin URI: 
 Description: A simple wordpress plugin to integrate Wordpress with Zoho CRM. This plugin will help you to insert a form in any page or post by inserting a short code "[zoholead]". The form data will be used to insert a record into the Zoho CRM Lead. The form fields to display can be set through the shortcode. The plugin supports recaptcha in the form to stop spam and there is an option to send the form data to an email using the php's mail function. The settings page can be accessed on the left side bar.
-Version: 1.1.0
-Author: Akhilesh
+Version: 1.2.0
+Author: wp_candyman
 Author URI: 
 License: GPL2
 

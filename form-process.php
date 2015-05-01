@@ -46,12 +46,15 @@ $form_data.='<FL val="Comments">'.$comments.'</FL>';
 $options = get_option('my_option_name' );
 $authtoken=$options['authtoken'];
 
+if($chkrecap=="yes")
+{
 $recapoptions = get_option('zoho_crm_integrator_recaptcha_options' );
 $privatekey=$recapoptions['private_key'];
 $resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
                                 $_POST["recaptcha_response_field"]);
+}
                                 
                                 
 
